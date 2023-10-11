@@ -128,8 +128,9 @@ export default function UserModal() {
                     <Form
                       name="basic"
                       labelCol={{ span: 8 }}
-                      wrapperCol={{ span: 10 }}
+                      wrapperCol={{ span: 20 }}
                       onSubmitCapture={formik.handleSubmit}
+                      
                     >
                       <Form.Item label="Tài khoản">
                         <Input
@@ -188,7 +189,7 @@ export default function UserModal() {
                           <Button
                             type="primary"
                             htmlType="submit"
-                            style={{ width: "20%" }}
+                            style={{ width: "30%" }}
                             className="mr-2"
                           >
                             Cập nhật
@@ -198,7 +199,7 @@ export default function UserModal() {
                               setShowForm(false);
                             }}
                             type="danger"
-                            style={{ width: "20%" }}
+                            style={{ width: "30%" }}
                           >
                             Huỷ
                           </Button>
